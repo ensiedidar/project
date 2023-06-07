@@ -1,0 +1,97 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/082/775/original/cloud5.jpg?1684754974);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 15px;
+}
+h1 {
+  color: #3a1078;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 10px;
+  position: fixed;
+}
+
+#border {
+  position: fixed;
+  margin: 100px 800px 150px 100px;
+
+  border-style: hidden;
+  padding: 10px;
+  background-color: transparent;
+  color: #0c134f;
+}
+#button {
+  margin-top: 10px;
+  margin-right: 800px;
+  padding: 2px;
+  width: 55px;
+  text-align: center;
+  background-color: #e11299;
+  border-style: hidden;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+#button:hover {
+  background-color: #ffffff;
+  color: #e11299;
+  cursor: pointer;
+}
+#input {
+  background-color: transparent;
+  border-style: hidden;
+  font-size: 25px;
+  color: #9a208c;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+#dayTime {
+  position: fixed;
+  top: 260px;
+}
+
+#conditionType {
+  font-size: 20px;
+  position: fixed;
+  top: 310px;
+}
+#temperature {
+  font-size: 70px;
+  position: fixed;
+  top: 340px;
+  left: 300px;
+}
+
+#degree {
+  font-size: 20px;
+  position: fixed;
+  top: 320px;
+  left: 310px;
+}
+#icon {
+  position: fixed;
+  top: 375px;
+  left: 160px;
+}
+#humidity {
+  position: fixed;
+  top: 450px;
+}
+#windspeed {
+  position: fixed;
+  top: 480px;
+}
+#celsius-link.active {
+  text-decoration: none;
+  color: black;
+}
+#fahrenheit-link.active {
+  text-decoration: none;
+  color: black;
+}
