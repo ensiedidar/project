@@ -95,3 +95,14 @@ h1 {
   text-decoration: none;
   color: black;
 }
+#edy {
+  color: rgb(153, 7, 114);
+  position: fixed;
+  top: 690px;
+  left: 10px;
+  font-size: 25px;
+}
+#edy:hover {
+  color: #f32cdc;
+  cursor: pointer;
+}
