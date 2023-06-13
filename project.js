@@ -34,14 +34,14 @@ function getWeather(response) {
   document.querySelector("#humid").innerHTML = response.data.main.humidity;
   document.querySelector("#speed").innerHTML = response.data.wind.speed;
   cel = response.data.main.temp;
-  // document.querySelector("#icon").innerHTML = iconFormat(response);
-  // document
-  //   .querySelector("#icon")
-  //   .setAttribute(
-  //     "src",
-  //     `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-  //   );
-  // console.log(response);
+  document.querySelector("#icon").innerHTML = iconFormat(response);
+  document
+    .querySelector("#icon")
+    .setAttribute(
+      "src",
+      `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
+  console.log(response);
 }
 
 function toCel(event) {
